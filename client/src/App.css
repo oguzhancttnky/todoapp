@@ -1,0 +1,25 @@
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .add_task_button span {
+    display: none;
+  }
+  .add_task_button:after {
+    width: 3rem;
+    content: "Add";
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 1000px) {
+  .add_task_button span {
+    display: none;
+  }
+  .add_task_button:after {
+    width: 3rem;
+    content: "Add";
+  }
+}
